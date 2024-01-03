@@ -163,12 +163,14 @@ Where contains(file.name, "<% moment().format('YYYY') %> goal")
 ```
 
 **What worked?**
--  
+
 
 **What didn't work?**
-- 
+
 
 **Things to try instead:**
+
+
 
 ### <% moment().format('YYYY') %> habit review
 ```dataview
@@ -176,10 +178,10 @@ LIST
 Where contains(file.name, "<% moment().format('YYYY') %> habit")
 ```
 **What worked?**
-- 
+
 
 **What didn't work?**
-- 
+
 
 **Things to try instead:**
 
