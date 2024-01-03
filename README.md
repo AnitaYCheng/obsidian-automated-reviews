@@ -22,10 +22,11 @@ Mason's templates (and my own personal working system) also include [Tasks](http
 ## How the automated system works
 **Daily** reviews roll up to **weekly** reviews, which roll up to **monthly** reviews, which roll up to **quarterly** reviews, which roll up to **yearly** reviews. I use each review as an opportunity to summarize my logs from the previous period. This is how I'm able to see what I was thinking about months ago.
 
-Here is an example of how my daily habits are visible in the weekly review, and how I can use it to summarize how I did on my habits every day:
+Here is an example of how I log habits in a daily review file:
 <img width="653" alt="A bulleted list of habit labels like AM Mood, PM Mood, Review, Note making, Music, Read, with all labels followed by a double colon. There is an emoji attached to some of the items." src="https://github.com/AnitaYCheng/obsidian-automated-reviews/assets/6760632/e07912cd-9ba0-49a1-8b75-ce84dc7ad680">
 
-<img width="646" alt="A table where the rows are daily file titles like 2023-06-11 and the columns are emojis assigned to certain habits. Each cell either shows the emoji assigned to that day's habit, or a dash if it was empty a.k.a. not done." src="https://github.com/AnitaYCheng/obsidian-automated-reviews/assets/6760632/7bd96733-a28b-462d-bdfa-2572a7eb442d">
+Here's how my daily habits are visible in the weekly review, and how I can use it to summarize how I did on my habits every day:
+<img width="646" alt="A table where the rows are daily file titles like 2023-06-11 and the columns are emojis assigned to certain habits. Each cell either shows the emoji assigned to that day's habit, or a dash if it was empty a.k.a. not done. Underneath is a new bulleted list with the habit labels denoting it as a weekly summary." src="https://github.com/AnitaYCheng/obsidian-automated-reviews/assets/6760632/7bd96733-a28b-462d-bdfa-2572a7eb442d">
 
 ### Populating the templates
 I've left these templates with placeholder habits and identities, so you can track where in the templates to modify them. You'll also likely need to learn a bit of how [Dataview works](https://blacksmithgu.github.io/obsidian-dataview/queries/data-commands/) so you can modify any queries to your liking.
