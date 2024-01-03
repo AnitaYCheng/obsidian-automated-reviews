@@ -52,6 +52,8 @@ I've included templates for goal-setting, habit setting, and visioning work. Kee
 ### Goals and habits
 These are heavily inspired by the [Full Focus planner system](https://fullfocus.co/). I use these templates to do some thinking ahead about what I'd like for myself in the future. I then include them into the priorities section in the yearly review file. The intention is to keep these visible every day, because I've found that any sense of urgency is lost if I don't see them regularly.
 
+To use them within the review system, I state the goal in the title of the Obsidian file, and prepend it with "[current year] goal" or "[current year] habit."
+
 ### The visioning template
 Every 3 years (or so) I like to set aside some time to take stock of where I am and where I'd like to go. You need to manually update any reference to the vision files to how you want it to work - that's not automated. Again, it's a place to do some separate thinking that I then bring into the yearly review file.
 

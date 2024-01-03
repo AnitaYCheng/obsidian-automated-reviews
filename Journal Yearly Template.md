@@ -156,6 +156,35 @@ SORT file.name asc
 1. 
 
 
+### <% moment().format('YYYY') %> goal review
+```dataview
+LIST
+Where contains(file.name, "<% moment().format('YYYY') %> goal")
+```
+
+**What worked?**
+-  
+
+**What didn't work?**
+- 
+
+**Things to try instead:**
+
+### <% moment().format('YYYY') %> habit review
+```dataview
+LIST
+Where contains(file.name, "<% moment().format('YYYY') %> habit")
+```
+**What worked?**
+- 
+
+**What didn't work?**
+- 
+
+**Things to try instead:**
+
+
+
 ### Goals for <% moment().add(1, 'years').format('YYYY') %>
 Max 8 goals, assign max 3 to work on per quarter
 
