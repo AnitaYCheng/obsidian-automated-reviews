@@ -156,23 +156,12 @@ SORT file.name asc
 1. 
 
 
-### <% moment().format('YYYY') %> goal review
+### <% moment().format('YYYY') %> goal and habit review
 ```dataview
 LIST
 Where contains(file.name, "<% moment().format('YYYY') %> goal")
 ```
 
-**What worked?**
-
-
-**What didn't work?**
-
-
-**Things to try instead:**
-
-
-
-### <% moment().format('YYYY') %> habit review
 ```dataview
 LIST
 Where contains(file.name, "<% moment().format('YYYY') %> habit")
