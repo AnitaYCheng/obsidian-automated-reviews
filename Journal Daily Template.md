@@ -44,6 +44,9 @@ file.name = "<% moment().subtract(1,'w').format('YYYY-[W]ww') %>")
 
 ![[<% moment().subtract(1, 'Q').format('YYYY-[Q]Q') %>#Priorities for <% moment().format('YYYY-[Q]Q') %>]]
 
+![[<% moment().subtract(1, 'M').format('YYYY-MM') %>#Priorities for <% moment().format('YYYY-MM') %>]]
+
+
 ---
 
 ## Today
@@ -74,8 +77,8 @@ file.name = "<% moment().subtract(1,'w').format('YYYY-[W]ww') %>")
 var dateformat = "YYYY-MM-DD"; 
 if (dv.current().dateformat) { dateformat = dv.current().dateformat; } 
 dv.table(["File", "Date Created"], dv.pages() 
-.where(p => dv.current().file.day && (p.file.cday.equals(dv.current().file.day))) 
-.sort(p => p.file.name, 'asc') 
+.where(p => dv.current().file.day && (p.file.mday.equals(dv.current().file.day))) 
+.sort(p => p.file.ctime, 'desc') 
 .map(p => [ p.file.link,  moment(p.file.ctime.toString()).format(dateformat), ]) );
 ```
 
