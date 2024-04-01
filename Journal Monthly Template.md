@@ -1,6 +1,6 @@
 #journal/Monthly 
 Last month：[[<%moment().subtract(1, 'M').format('YYYY-MM')%>]] || Next month：[[<%moment().add(1, 'M').format('YYYY-MM')%>]]
-This quarter：[[<%moment().subtract(1,'Q').format('YYYY-[Q]Q')%>]]
+This quarter：[[<%moment().format('YYYY-[Q]Q')%>]]
 Week of the month：[[<% moment().subtract(4, 'w').format('YYYY-[W]ww') %>]] || [[<% moment().subtract(3, 'w').format('YYYY-[W]ww') %>]] || [[<% moment().subtract(2, 'w').format('YYYY-[W]ww') %>]] || [[<% moment().subtract(1, 'w').format('YYYY-[W]ww') %>]] || [[<% moment().format('YYYY-[W]ww') %>]]
 
 ## Habits
