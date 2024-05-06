@@ -40,13 +40,6 @@ WHERE (
 file.name = "<% moment().subtract(1,'w').format('YYYY-[W]ww') %>")
 ```
 
-![[<% moment().subtract(1, 'years').format('YYYY') %>#Priorities for <% moment().format('YYYY') %>]]
-
-![[<% moment().subtract(1, 'Q').format('YYYY-[Q]Q') %>#Priorities for <% moment().format('YYYY-[Q]Q') %>]]
-
-![[<% moment().subtract(1, 'M').format('YYYY-MM') %>#Priorities for <% moment().format('YYYY-MM') %>]]
-
-
 ---
 
 ## Today
