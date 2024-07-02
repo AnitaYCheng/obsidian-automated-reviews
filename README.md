@@ -39,12 +39,13 @@ Using Moment.js syntax with the Templater plugin means you don't have to calcula
 But this also means that you need to schedule the reviews on time. Otherwise you'll need to edit some of the calculated dates. Not a dealbreaker, but definitely annoying.
 
 You should create each review file from its corresponding template before midnight on the last day before the stated period is over. For example:
-- Daily reviews before midnight
-- Weekly reviews before Saturday is over
-- Monthly reviews before the last day of the month is over
-- Quarterly reviews before the last day of the quarter is over
+- Daily reviews before the referenced day is over (meaning, 11:59 pm local time)
+- Weekly reviews before Saturday is over in the referenced week
+- Monthly reviews before the last day is over in the referenced month
+- Quarterly reviews on the last day of the referenced quarter
 - Yearly reviews before January 1
-You can create the files anytime beforehand, but they won't populate with your content until there's something to roll up.
+
+You can create the files beforehand for weekly or monthly reviews as long as you're in the referenced time period, but they won't populate with your content until there's something to roll up.
 
 ## Supporting templates
 I've included templates for goal-setting, habit setting, and visioning work. Keep in mind that I use "goal" here very loosely, since my system isn't really about achievement. 
