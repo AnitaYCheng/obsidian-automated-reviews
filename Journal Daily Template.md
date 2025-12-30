@@ -43,9 +43,9 @@ file.name = "<% moment().subtract(1,'w').format('YYYY-[W]ww') %>")
 ---
 
 ## Today
-### Quick Summary
 
-^quickSummary
+**Daily Big 3**::<br>1. <br>2. <br>3. 
+
 
 ### Habits
 - AM Mood:: 
@@ -65,14 +65,11 @@ file.name = "<% moment().subtract(1,'w').format('YYYY-[W]ww') %>")
 - Things I learned:: <br>1. <br>2. 
 
 ---
-### Worked on today:
-```dataviewjs 
-var dateformat = "YYYY-MM-DD"; 
-if (dv.current().dateformat) { dateformat = dv.current().dateformat; } 
-dv.table(["File", "Date Created"], dv.pages() 
-.where(p => dv.current().file.day && (p.file.mday.equals(dv.current().file.day))) 
-.sort(p => p.file.ctime, 'desc') 
-.map(p => [ p.file.link,  moment(p.file.ctime.toString()).format(dateformat), ]) );
+### Created today
+```dataview
+TABLE file.folder AS "Folder"
+WHERE file.cday = date(<% moment().format('YYYY-MM-DD') %>)
+SORT file.folder desc
 ```
 
 
