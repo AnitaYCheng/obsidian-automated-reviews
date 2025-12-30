@@ -47,6 +47,8 @@ You should create each review file from its corresponding template before midnig
 
 You can create the files beforehand for weekly or monthly reviews as long as you're in the referenced time period, but they won't populate with your content until there's something to roll up.
 
+Also, the automated years get a little weird at the end of the year, when the end of the week doesn't correspond exactly to the end of the year. One of those things that's better to fix manually than fiddle with time code forever. 😅
+
 ## Supporting templates
 I've included templates for goal-setting, habit setting, and visioning work. Keep in mind that I use "goal" here very loosely, since my system isn't really about achievement. 
 
