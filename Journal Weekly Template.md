@@ -101,7 +101,7 @@ SORT file.name asc
 
 ## Weekly takeaways
 
-### What worked? What didn't? What affected your performance?
+### What drove your progress? (🏆 the 3 biggest wins!) What stalled your progress? 
 🤩  Great!
 - 
 
@@ -110,6 +110,11 @@ SORT file.name asc
 
 🤔  Thinking about what happened
 - 
+
+💆🏻‍♀️ Choose 3 ways to better sleep, eat, move, connect, or relax this coming week.
+1.
+2.
+3.
 
 **Start**::<br>- 
 **Continue**::<br>- 
