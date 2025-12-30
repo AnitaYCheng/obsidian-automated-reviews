@@ -50,6 +50,18 @@ SORT file.name asc
 **IDExample2 annual review**:: <br>- 
 
 
+### Thoughts on the year, by quarter
+```dataview
+table 
+row["Thoughts on the quarter"] as "Thoughts"
+WHERE (
+file.name = "<% moment().subtract(3, 'Q').format('YYYY-[Q]Q') %>" or
+file.name = "<% moment().subtract(2, 'Q').format('YYYY-[Q]Q') %>" or
+file.name = "<% moment().subtract(1, 'Q').format('YYYY-[Q]Q') %>" or
+file.name = "<% moment().format('YYYY-[Q]Q') %>"
+)
+SORT file.name asc
+```
 
 ### Memorable things by quarter
 ```dataview
