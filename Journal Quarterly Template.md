@@ -65,6 +65,7 @@ SORT file.name asc
 ![[<%moment().subtract(1, 'M').format('YYYY-MM')%>#^thoughtsOnThisMonth]] 
 
 ![[<%moment().format('YYYY-MM')%>#^thoughtsOnThisMonth]] 
+**Thoughts on the quarter**::<br>- 
 
 
 ### Memorable
@@ -107,6 +108,25 @@ WHERE (
 SORT file.name asc
 ```
 **Start/continue/stop quarterly review**::<br>- 
+
+### Strategy review
+What strategies and tactics worked this quarter?
+- 
+
+What didn't work this quarter?
+- 
+
+What to keep doing:
+- 
+
+What to improve:
+- 
+
+What to stop doing:
+- 
+
+What to start doing:
+- 
 
 
 ## Planning
